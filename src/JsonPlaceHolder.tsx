@@ -30,7 +30,10 @@ const JsonPlaceHolder = (_props: any) => {
           }
           
         
-        });
+        }.catch(error => {
+      return error;
+    });
+                                                                               );
       };
 
     return( <>

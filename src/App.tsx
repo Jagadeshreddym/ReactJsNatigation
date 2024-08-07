@@ -11,7 +11,8 @@ function App() {
     <Router>
       <div  data-testid="load">
         <Routes>
-          <Route path="/" element={<Register/>} />
+          <Route path="/" element={<JsonPlaceHolder/>} />
+          <Route path="/register" element={<Register/>} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
